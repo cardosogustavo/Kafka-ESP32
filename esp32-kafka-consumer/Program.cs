@@ -11,7 +11,7 @@ public class Program
         // Passing the configuration for ConsumerConfig
         var config = new ConsumerConfig
         {
-            BootstrapServers = "172.18.145.39:9092",
+            BootstrapServers = "<IP>:<PORT>",
             GroupId = "kafka-consumer",
             AutoOffsetReset = AutoOffsetReset.Earliest
         };
